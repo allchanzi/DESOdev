@@ -1,0 +1,1 @@
+numpy==1.13.1scikit-image==0.13.1PyQt5==5.10
