@@ -12,15 +12,15 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/DESOproject$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1537988578376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DESOproject$Gui.coverage" NAME="Gui Coverage Results" MODIFIED="1537993896263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gui" />
-    <SUITE FILE_PATH="coverage/DESOproject$Gui__1_.coverage" NAME="Gui (1) Coverage Results" MODIFIED="1537993907982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DESOproject$Gui__1_.coverage" NAME="Gui (1) Coverage Results" MODIFIED="1537994671383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ImageProcessor.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ImageProcessor.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ImageProcessor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="115" column="32" lean-forward="true" selection-start-line="115" selection-start-column="32" selection-end-line="115" selection-end-column="32" />
+            <state relative-caret-position="136">
+              <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
                 <element signature="e#865#1286#0" />
@@ -32,20 +32,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gui.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gui/Gui.py">
+      <file leaf-file-name="Gui.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Gui.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
+            <state relative-caret-position="233">
+              <caret line="92" column="19" lean-forward="true" selection-start-line="92" selection-start-column="19" selection-end-line="92" selection-end-column="19" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
-                <element signature="e#359#711#0" />
-                <element signature="e#796#1501#0" />
-                <element signature="e#1539#2494#0" />
-                <element signature="e#2651#2717#0" />
-                <element signature="e#3220#3266#0" />
-                <element signature="e#3302#3320#0" />
-                <element signature="e#4317#4446#0" />
               </folding>
             </state>
           </provider>
@@ -70,6 +63,7 @@
         <option value="$PROJECT_DIR$/gui/index.html" />
         <option value="$PROJECT_DIR$/gui/Gui.py" />
         <option value="$PROJECT_DIR$/ImageProcessor.py" />
+        <option value="$PROJECT_DIR$/Gui.py" />
       </list>
     </option>
   </component>
@@ -82,7 +76,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="22" />
     <option name="width" value="1936" />
@@ -100,11 +94,6 @@
             <path>
               <item name="DESOproject" type="b2602c69:ProjectViewProjectNode" />
               <item name="DESOproject" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DESOproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DESOproject" type="462c0819:PsiDirectoryNode" />
-              <item name="gui" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -445,14 +434,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ImageProcessor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="115" column="32" lean-forward="true" selection-start-line="115" selection-start-column="32" selection-end-line="115" selection-end-column="32" />
+        <state relative-caret-position="136">
+          <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
             <element signature="e#865#1286#0" />
             <element signature="e#1334#1678#0" />
             <element signature="e#1980#2221#0" />
             <element signature="e#2593#5461#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="92" column="19" lean-forward="true" selection-start-line="92" selection-start-column="19" selection-end-line="92" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>

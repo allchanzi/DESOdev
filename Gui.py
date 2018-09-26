@@ -92,8 +92,8 @@ class MainWindow(main_page_base, main_page_form):
 
     def save(self):
         filename = QFileDialog.getSaveFileName(self, 'Ulož', self.file_name, filter="Images (*.jpg *png)")
-        print(filename)
-        image_processor.save(filename[0])
+        if filename[0] != '':
+            image_processor.save(filename[0])
 
     def exit_app(self):
         sys.exit(1)

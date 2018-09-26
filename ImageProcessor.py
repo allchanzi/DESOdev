@@ -6,7 +6,10 @@ import unittest
 
 
 def load_image(file_path):
-    loaded_image = io.imread(file_path)[:, :, :3]
+    if file_path[-4:] == ".jpg" :
+        loaded_image = io.imread(file_path)
+    else:
+        loaded_image = io.imread(file_path)[:, :, :3]
     return np.array(loaded_image)
 
 
